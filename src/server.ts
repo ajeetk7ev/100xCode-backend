@@ -1,10 +1,10 @@
 import { app } from "./app.ts";
-
+import env from "./config/env.ts";
 
 
 
 const startServer = async() => {
-    app.listen(8000, () => {
+    app.listen(env.PORT, () => {
         console.log("Server is running at port 8000")
     })
 }
