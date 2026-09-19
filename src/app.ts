@@ -6,7 +6,7 @@ dotenv.config();
 
 const app = express();
 
-app.use(notFoundHandler);
+
 
 app.get("/health", (_,res) => {
     
@@ -15,6 +15,8 @@ app.get("/health", (_,res) => {
         upTime:process.uptime()
     })
 })
+
+app.use(notFoundHandler);
 
 app.use(errorHandler);
 
