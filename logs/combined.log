@@ -13,3 +13,6 @@
 [2026-09-19 16:23:06] [error]: Request error
 [2026-09-19 16:23:17] [info]: Server is running on port 8000
 [2026-09-19 16:23:34] [info]: Server is running on port 8000
+[2026-09-19 16:24:20] [info]: Server is running on port 8000
+[2026-09-19 16:24:24] [error]: [GET] /health/dfasfa - 404 - Route not found: GET /health/dfasfa
+[2026-09-19 16:34:51] [info]: Server is running on port 8000

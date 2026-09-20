@@ -2,7 +2,6 @@ import winston from 'winston';
 
 const { combine, timestamp, printf, colorize, errors } = winston.format;
 
-// Custom log format without icons/emojis
 const logFormat = printf(({ level, message, timestamp, stack }) => {
   return `[${timestamp}] [${level}]: ${stack || message}`;
 });
