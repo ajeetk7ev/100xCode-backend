@@ -2,3 +2,87 @@
 [2026-09-19 16:23:03] [error]: Request error
 [2026-09-19 16:23:06] [error]: Request error
 [2026-09-19 16:24:24] [error]: [GET] /health/dfasfa - 404 - Route not found: GET /health/dfasfa
+[2026-09-21 19:56:48] [error]: [POST] /users - undefined - Cannot destructure property 'firstname' of 'req.body' as it is undefined.
+[2026-09-21 19:57:22] [error]: [POST] /users - undefined - 
+Invalid `prisma.user.create()` invocation in
+D:\100xCode\backend\src\app.ts:23:37
+
+  20 app.post("/users", async(req, res) => {
+  21      const {firstname, lastname, email, password} = req.body;
+  22 
+→ 23      const user = await prisma.user.create(
+
+[2026-09-21 20:00:10] [error]: [POST] /users - undefined - 
+Invalid `prisma.user.create()` invocation in
+D:\100xCode\backend\src\app.ts:23:37
+
+  20 app.post("/users", async(req, res) => {
+  21      const {firstname, lastname, email, password} = req.body;
+  22 
+→ 23      const user = await prisma.user.create(
+
+[2026-09-21 20:02:12] [error]: [POST] /users - undefined - 
+Invalid `prisma.user.create()` invocation in
+D:\100xCode\backend\src\app.ts:23:37
+
+  20 app.post("/users", async(req, res) => {
+  21      const {firstname, lastname, email, password} = req.body;
+  22 
+→ 23      const user = await prisma.user.create(
+
+[2026-09-21 20:02:57] [error]: [POST] /users - undefined - 
+Invalid `prisma.user.create()` invocation in
+D:\100xCode\backend\src\app.ts:23:37
+
+  20 app.post("/users", async(req, res) => {
+  21      const {firstname, lastname, email, password} = req.body;
+  22 
+→ 23      const user = await prisma.user.create(
+
+[2026-09-21 20:04:27] [error]: [POST] /users - undefined - 
+Invalid `prisma.user.create()` invocation in
+D:\100xCode\backend\src\app.ts:24:37
+
+  21 console.log("REQ BODY", req.body);
+  22  const {firstname, lastname, email, password} = req.body;
+  23 
+→ 24  const user = await prisma.user.create(
+
+[2026-09-21 20:11:16] [error]: [POST] /users - undefined - 
+Invalid `prisma.user.create()` invocation in
+D:\100xCode\backend\src\app.ts:31:37
+
+  28    password
+  29 })
+  30 
+→ 31 const user = await prisma.user.create(
+
+[2026-09-21 20:26:02] [error]: [POST] /users - undefined - SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+[2026-09-21 20:26:43] [error]: [POST] /users - undefined - SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+[2026-09-21 20:33:58] [error]: [POST] /users - undefined - 
+Invalid `prisma.user.create()` invocation in
+D:\100xCode\backend\src\app.ts:29:34
+
+  26   password,
+  27 });
+  28 
+→ 29 const user = await prisma.user.create(
+Database `100xcode` does not exist on the database server
+[2026-09-21 20:34:37] [error]: [POST] /users - undefined - 
+Invalid `prisma.user.create()` invocation in
+D:\100xCode\backend\src\app.ts:29:34
+
+  26   password,
+  27 });
+  28 
+→ 29 const user = await prisma.user.create(
+The table `public.User` does not exist in the current database.
+[2026-09-21 20:38:53] [error]: [POST] /users - undefined - 
+Invalid `prisma.user.create()` invocation in
+D:\100xCode\backend\src\app.ts:29:34
+
+  26   password,
+  27 });
+  28 
+→ 29 const user = await prisma.user.create(
+Null constraint violation on the (not available)

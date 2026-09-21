@@ -16,3 +16,120 @@
 [2026-09-19 16:24:20] [info]: Server is running on port 8000
 [2026-09-19 16:24:24] [error]: [GET] /health/dfasfa - 404 - Route not found: GET /health/dfasfa
 [2026-09-19 16:34:51] [info]: Server is running on port 8000
+[2026-09-20 22:45:59] [info]: Server is running on port 8000
+[2026-09-20 22:49:39] [info]: Server is running on port 8000
+[2026-09-20 22:54:08] [info]: Server is running on port 8000
+[2026-09-21 19:12:25] [info]: Server is running on port 8000
+[2026-09-21 19:17:12] [info]: Server is running on port 8000
+[2026-09-21 19:22:10] [info]: Server is running on port 8000
+[2026-09-21 19:30:13] [info]: Server is running on port 8000
+[2026-09-21 19:30:45] [info]: Server is running on port 8000
+[2026-09-21 19:31:03] [info]: Server is running on port 8000
+[2026-09-21 19:44:34] [info]: Server is running on port 8000
+[2026-09-21 19:45:27] [info]: Server is running on port 8000
+[2026-09-21 19:46:12] [info]: Server is running on port 8000
+[2026-09-21 19:46:45] [info]: Server is running on port 8000
+[2026-09-21 19:46:54] [info]: Server is running on port 8000
+[2026-09-21 19:47:52] [info]: Server is running on port 8000
+[2026-09-21 19:48:12] [info]: Server is running on port 8000
+[2026-09-21 19:54:36] [info]: Server is running on port 8000
+[2026-09-21 19:56:48] [error]: [POST] /users - undefined - Cannot destructure property 'firstname' of 'req.body' as it is undefined.
+[2026-09-21 19:57:20] [info]: Server is running on port 8000
+[2026-09-21 19:57:22] [error]: [POST] /users - undefined - 
+Invalid `prisma.user.create()` invocation in
+D:\100xCode\backend\src\app.ts:23:37
+
+  20 app.post("/users", async(req, res) => {
+  21      const {firstname, lastname, email, password} = req.body;
+  22 
+→ 23      const user = await prisma.user.create(
+
+[2026-09-21 20:00:06] [info]: Server is running on port 8000
+[2026-09-21 20:00:10] [error]: [POST] /users - undefined - 
+Invalid `prisma.user.create()` invocation in
+D:\100xCode\backend\src\app.ts:23:37
+
+  20 app.post("/users", async(req, res) => {
+  21      const {firstname, lastname, email, password} = req.body;
+  22 
+→ 23      const user = await prisma.user.create(
+
+[2026-09-21 20:01:06] [info]: Server is running on port 8000
+[2026-09-21 20:01:40] [info]: Server is running on port 8000
+[2026-09-21 20:02:12] [error]: [POST] /users - undefined - 
+Invalid `prisma.user.create()` invocation in
+D:\100xCode\backend\src\app.ts:23:37
+
+  20 app.post("/users", async(req, res) => {
+  21      const {firstname, lastname, email, password} = req.body;
+  22 
+→ 23      const user = await prisma.user.create(
+
+[2026-09-21 20:02:22] [info]: SIGINT received. Shutting down gracefully...
+[2026-09-21 20:02:54] [info]: Server is running on port 8000
+[2026-09-21 20:02:57] [error]: [POST] /users - undefined - 
+Invalid `prisma.user.create()` invocation in
+D:\100xCode\backend\src\app.ts:23:37
+
+  20 app.post("/users", async(req, res) => {
+  21      const {firstname, lastname, email, password} = req.body;
+  22 
+→ 23      const user = await prisma.user.create(
+
+[2026-09-21 20:04:25] [info]: Server is running on port 8000
+[2026-09-21 20:04:27] [error]: [POST] /users - undefined - 
+Invalid `prisma.user.create()` invocation in
+D:\100xCode\backend\src\app.ts:24:37
+
+  21 console.log("REQ BODY", req.body);
+  22  const {firstname, lastname, email, password} = req.body;
+  23 
+→ 24  const user = await prisma.user.create(
+
+[2026-09-21 20:11:12] [info]: Server is running on port 8000
+[2026-09-21 20:11:16] [error]: [POST] /users - undefined - 
+Invalid `prisma.user.create()` invocation in
+D:\100xCode\backend\src\app.ts:31:37
+
+  28    password
+  29 })
+  30 
+→ 31 const user = await prisma.user.create(
+
+[2026-09-21 20:11:36] [info]: Server is running on port 8000
+[2026-09-21 20:11:47] [info]: SIGINT received. Shutting down gracefully...
+[2026-09-21 20:25:58] [info]: Server is running on port 8000
+[2026-09-21 20:26:02] [error]: [POST] /users - undefined - SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+[2026-09-21 20:26:39] [info]: Server is running on port 8000
+[2026-09-21 20:26:43] [error]: [POST] /users - undefined - SASL: SCRAM-SERVER-FIRST-MESSAGE: client password must be a string
+[2026-09-21 20:33:52] [info]: Server is running on port 8000
+[2026-09-21 20:33:58] [error]: [POST] /users - undefined - 
+Invalid `prisma.user.create()` invocation in
+D:\100xCode\backend\src\app.ts:29:34
+
+  26   password,
+  27 });
+  28 
+→ 29 const user = await prisma.user.create(
+Database `100xcode` does not exist on the database server
+[2026-09-21 20:34:15] [info]: SIGINT received. Shutting down gracefully...
+[2026-09-21 20:34:23] [info]: Server is running on port 8000
+[2026-09-21 20:34:37] [error]: [POST] /users - undefined - 
+Invalid `prisma.user.create()` invocation in
+D:\100xCode\backend\src\app.ts:29:34
+
+  26   password,
+  27 });
+  28 
+→ 29 const user = await prisma.user.create(
+The table `public.User` does not exist in the current database.
+[2026-09-21 20:38:53] [error]: [POST] /users - undefined - 
+Invalid `prisma.user.create()` invocation in
+D:\100xCode\backend\src\app.ts:29:34
+
+  26   password,
+  27 });
+  28 
+→ 29 const user = await prisma.user.create(
+Null constraint violation on the (not available)
+[2026-09-21 20:39:20] [info]: Server is running on port 8000
