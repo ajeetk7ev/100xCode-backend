@@ -1,0 +1,23 @@
+enum Role {
+    STUDENT
+    ADMIN
+}
+
+model User {
+    id String @id @default(uuid())
+
+    firstname  String
+    middlename String?
+    lastname   String
+    image      String?
+    email      String  @unique
+    country    String
+    state      String
+    password   String   //will be hashed password
+    role       Role    @default(STUDENT)
+
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+
+    @@index([email])
+}

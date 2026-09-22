@@ -133,3 +133,6 @@ D:\100xCode\backend\src\app.ts:29:34
 → 29 const user = await prisma.user.create(
 Null constraint violation on the (not available)
 [2026-09-21 20:39:20] [info]: Server is running on port 8000
+[2026-09-21 20:42:08] [info]: Server is running on port 8000
+[2026-09-21 20:49:20] [info]: Server is running on port 8000
+[2026-09-21 22:57:14] [info]: Server is running on port 8000

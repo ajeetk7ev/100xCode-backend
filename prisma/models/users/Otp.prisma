@@ -1,0 +1,19 @@
+enum OtpPurpose {
+  EMAIL_VERIFICATION
+  LOGIN
+  PASSWORD_RESET
+}
+
+
+model Otp {
+    id        String   @id @default(uuid())
+    email     String
+    otp       String //will store the hashed otp
+    purpose   OtpPurpose
+    attempts  Int      @default(0) //without restriction anyone can use brute force for this 
+    expiresAt DateTime
+    createdAt DateTime @default(now())
+    updatedAt DateTime @updatedAt
+
+    @@index([email, purpose])
+}

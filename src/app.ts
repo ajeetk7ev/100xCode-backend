@@ -2,7 +2,6 @@ import express from "express";
 import dotenv from "dotenv";
 import errorHandler from "./middlewares/errorHandler.ts";
 import notFoundHandler from "./middlewares/notFoundHandler.ts";
-import { prisma } from "./config/prisma.ts";
 dotenv.config();
 
 const app = express();
