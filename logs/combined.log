@@ -136,3 +136,720 @@ Null constraint violation on the (not available)
 [2026-09-21 20:42:08] [info]: Server is running on port 8000
 [2026-09-21 20:49:20] [info]: Server is running on port 8000
 [2026-09-21 22:57:14] [info]: Server is running on port 8000
+[2026-09-22 19:44:55] [info]: Redis connected
+[2026-09-22 19:44:55] [info]: Server is running on port 8000
+[2026-09-22 19:44:55] [info]: Redis connected
+[2026-09-22 19:44:55] [info]: Redis is ready
+[2026-09-22 19:47:16] [info]: Redis connected
+[2026-09-22 19:47:16] [info]: Server is running on port 8000
+[2026-09-22 19:47:16] [info]: Redis connected
+[2026-09-22 19:47:16] [info]: Redis is ready
+[2026-09-22 19:47:16] [info]: Email worker is  ready
+[2026-09-22 19:49:12] [info]: Redis connected
+[2026-09-22 19:49:13] [info]: Server is running on port 8000
+[2026-09-22 19:49:13] [info]: Redis connected
+[2026-09-22 19:49:13] [info]: Redis is ready
+[2026-09-22 19:49:13] [info]: Email worker is  ready
+[2026-09-22 19:49:17] [info]: Redis connected
+[2026-09-22 19:49:17] [info]: Server is running on port 8000
+[2026-09-22 19:49:17] [info]: Redis connected
+[2026-09-22 19:49:17] [info]: Redis is ready
+[2026-09-22 19:49:17] [info]: Email worker is  ready
+[2026-09-22 19:49:47] [info]: Redis connected
+[2026-09-22 19:49:47] [info]: Server is running on port 8000
+[2026-09-22 19:49:47] [info]: Redis connected
+[2026-09-22 19:49:47] [info]: Redis is ready
+[2026-09-22 19:49:47] [info]: Email worker is  ready
+[2026-09-22 19:50:28] [info]: Redis connected
+[2026-09-22 19:50:28] [info]: Server is running on port 8000
+[2026-09-22 19:50:28] [info]: Redis connected
+[2026-09-22 19:50:28] [info]: Redis is ready
+[2026-09-22 19:50:28] [info]: Email worker is  ready
+[2026-09-22 19:51:57] [info]: Redis connected
+[2026-09-22 19:51:57] [info]: Server is running on port 8000
+[2026-09-22 19:51:57] [info]: Redis connected
+[2026-09-22 19:51:57] [info]: Redis is ready
+[2026-09-22 19:51:57] [info]: Email worker is  ready
+[2026-09-22 19:53:09] [info]: Redis connected
+[2026-09-22 19:53:09] [info]: Server is running on port 8000
+[2026-09-22 19:53:09] [info]: Redis connected
+[2026-09-22 19:53:09] [info]: Redis is ready
+[2026-09-22 19:53:09] [info]: Email worker is  ready
+[2026-09-22 19:54:42] [info]: Redis connected
+[2026-09-22 19:54:42] [info]: Server is running on port 8000
+[2026-09-22 19:54:43] [info]: Redis connected
+[2026-09-22 19:54:43] [info]: Redis is ready
+[2026-09-22 19:54:43] [info]: Email worker is  ready
+[2026-09-22 19:55:08] [info]: Redis connected
+[2026-09-22 19:55:08] [info]: Server is running on port 8000
+[2026-09-22 19:55:08] [info]: Redis connected
+[2026-09-22 19:55:08] [info]: Redis is ready
+[2026-09-22 19:55:08] [info]: Email worker is  ready
+[2026-09-22 19:55:28] [info]: Redis connected
+[2026-09-22 19:55:28] [info]: Server is running on port 8000
+[2026-09-22 19:55:28] [info]: Redis connected
+[2026-09-22 19:55:28] [info]: Redis is ready
+[2026-09-22 19:55:28] [info]: Email worker is  ready
+[2026-09-22 19:55:32] [info]: Redis connected
+[2026-09-22 19:55:32] [info]: Redis connected
+[2026-09-22 19:55:32] [info]: Redis is ready
+[2026-09-22 19:55:32] [info]: Processing job: 1
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test1@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 1 completed
+[2026-09-22 19:55:32] [info]: Processing job: 2
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test2@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 4
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test4@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 3
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test3@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 5
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test5@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 6
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test6@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 2 completed
+[2026-09-22 19:55:32] [info]: Job 4 completed
+[2026-09-22 19:55:32] [info]: Processing job: 7
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test7@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 8
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test8@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 3 completed
+[2026-09-22 19:55:32] [info]: Job 5 completed
+[2026-09-22 19:55:32] [info]: Job 6 completed
+[2026-09-22 19:55:32] [info]: Processing job: 9
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test9@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 10
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test10@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 11
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test11@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 7 completed
+[2026-09-22 19:55:32] [info]: Job 8 completed
+[2026-09-22 19:55:32] [info]: Processing job: 12
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test12@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 13
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test13@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 9 completed
+[2026-09-22 19:55:32] [info]: Job 10 completed
+[2026-09-22 19:55:32] [info]: Job 11 completed
+[2026-09-22 19:55:32] [info]: Processing job: 14
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test14@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 15
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test15@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 16
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test16@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 12 completed
+[2026-09-22 19:55:32] [info]: Job 13 completed
+[2026-09-22 19:55:32] [info]: Processing job: 17
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test17@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 18
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test18@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 14 completed
+[2026-09-22 19:55:32] [info]: Processing job: 19
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test19@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 15 completed
+[2026-09-22 19:55:32] [info]: Job 16 completed
+[2026-09-22 19:55:32] [info]: Job 17 completed
+[2026-09-22 19:55:32] [info]: Job 18 completed
+[2026-09-22 19:55:32] [info]: Processing job: 20
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test20@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 21
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test21@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 22
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test22@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 23
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test23@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 19 completed
+[2026-09-22 19:55:32] [info]: Processing job: 24
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test24@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 20 completed
+[2026-09-22 19:55:32] [info]: Processing job: 25
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test25@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 21 completed
+[2026-09-22 19:55:32] [info]: Job 22 completed
+[2026-09-22 19:55:32] [info]: Job 23 completed
+[2026-09-22 19:55:32] [info]: Job 24 completed
+[2026-09-22 19:55:32] [info]: Processing job: 26
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test26@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 27
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test27@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 28
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test28@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 29
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test29@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 25 completed
+[2026-09-22 19:55:32] [info]: Processing job: 30
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test30@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 26 completed
+[2026-09-22 19:55:32] [info]: Job 27 completed
+[2026-09-22 19:55:32] [info]: Job 28 completed
+[2026-09-22 19:55:32] [info]: Job 29 completed
+[2026-09-22 19:55:32] [info]: Processing job: 31
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test31@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 32
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test32@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 33
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test33@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 34
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test34@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 30 completed
+[2026-09-22 19:55:32] [info]: Processing job: 35
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test35@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 31 completed
+[2026-09-22 19:55:32] [info]: Job 32 completed
+[2026-09-22 19:55:32] [info]: Job 33 completed
+[2026-09-22 19:55:32] [info]: Job 34 completed
+[2026-09-22 19:55:32] [info]: Processing job: 36
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test36@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 37
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test37@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 38
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test38@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 39
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test39@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 35 completed
+[2026-09-22 19:55:32] [info]: Processing job: 40
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test40@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 36 completed
+[2026-09-22 19:55:32] [info]: Processing job: 41
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test41@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 37 completed
+[2026-09-22 19:55:32] [info]: Job 38 completed
+[2026-09-22 19:55:32] [info]: Job 39 completed
+[2026-09-22 19:55:32] [info]: Job 40 completed
+[2026-09-22 19:55:32] [info]: Processing job: 42
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test42@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 43
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test43@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 44
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test44@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 45
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test45@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 41 completed
+[2026-09-22 19:55:32] [info]: Processing job: 46
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test46@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 42 completed
+[2026-09-22 19:55:32] [info]: Job 43 completed
+[2026-09-22 19:55:32] [info]: Job 44 completed
+[2026-09-22 19:55:32] [info]: Job 45 completed
+[2026-09-22 19:55:32] [info]: Processing job: 47
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test47@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 48
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test48@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 49
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test49@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 50
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test50@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 46 completed
+[2026-09-22 19:55:32] [info]: Processing job: 51
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test51@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 47 completed
+[2026-09-22 19:55:32] [info]: Job 48 completed
+[2026-09-22 19:55:32] [info]: Job 49 completed
+[2026-09-22 19:55:32] [info]: Job 50 completed
+[2026-09-22 19:55:32] [info]: Processing job: 52
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test52@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 53
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test53@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 54
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test54@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 55
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test55@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 51 completed
+[2026-09-22 19:55:32] [info]: Processing job: 56
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test56@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 52 completed
+[2026-09-22 19:55:32] [info]: Job 53 completed
+[2026-09-22 19:55:32] [info]: Job 54 completed
+[2026-09-22 19:55:32] [info]: Job 55 completed
+[2026-09-22 19:55:32] [info]: Processing job: 57
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test57@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 58
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test58@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 59
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test59@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 60
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test60@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 56 completed
+[2026-09-22 19:55:32] [info]: Processing job: 61
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test61@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 57 completed
+[2026-09-22 19:55:32] [info]: Processing job: 62
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test62@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 58 completed
+[2026-09-22 19:55:32] [info]: Job 59 completed
+[2026-09-22 19:55:32] [info]: Job 60 completed
+[2026-09-22 19:55:32] [info]: Job 61 completed
+[2026-09-22 19:55:32] [info]: Processing job: 63
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test63@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 64
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test64@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 65
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test65@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 66
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test66@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 62 completed
+[2026-09-22 19:55:32] [info]: Processing job: 67
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test67@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 63 completed
+[2026-09-22 19:55:32] [info]: Processing job: 68
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test68@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 64 completed
+[2026-09-22 19:55:32] [info]: Job 65 completed
+[2026-09-22 19:55:32] [info]: Job 66 completed
+[2026-09-22 19:55:32] [info]: Job 67 completed
+[2026-09-22 19:55:32] [info]: Processing job: 69
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test69@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 70
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test70@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 71
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test71@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 72
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test72@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 68 completed
+[2026-09-22 19:55:32] [info]: Processing job: 73
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test73@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 69 completed
+[2026-09-22 19:55:32] [info]: Job 70 completed
+[2026-09-22 19:55:32] [info]: Job 71 completed
+[2026-09-22 19:55:32] [info]: Job 72 completed
+[2026-09-22 19:55:32] [info]: Processing job: 74
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test74@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 75
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test75@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 76
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test76@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 77
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test77@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 73 completed
+[2026-09-22 19:55:32] [info]: Processing job: 78
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test78@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 74 completed
+[2026-09-22 19:55:32] [info]: Job 75 completed
+[2026-09-22 19:55:32] [info]: Job 76 completed
+[2026-09-22 19:55:32] [info]: Job 77 completed
+[2026-09-22 19:55:32] [info]: Processing job: 79
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test79@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 80
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test80@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 81
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test81@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 82
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test82@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 78 completed
+[2026-09-22 19:55:32] [info]: Processing job: 83
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test83@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 79 completed
+[2026-09-22 19:55:32] [info]: Job 80 completed
+[2026-09-22 19:55:32] [info]: Job 81 completed
+[2026-09-22 19:55:32] [info]: Job 82 completed
+[2026-09-22 19:55:32] [info]: Processing job: 84
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test84@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 85
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test85@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 86
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test86@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 87
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test87@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 83 completed
+[2026-09-22 19:55:32] [info]: Processing job: 88
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test88@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 84 completed
+[2026-09-22 19:55:32] [info]: Job 85 completed
+[2026-09-22 19:55:32] [info]: Job 86 completed
+[2026-09-22 19:55:32] [info]: Job 87 completed
+[2026-09-22 19:55:32] [info]: Processing job: 89
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test89@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 90
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test90@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 91
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test91@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 92
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test92@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 88 completed
+[2026-09-22 19:55:32] [info]: Processing job: 93
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test93@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 89 completed
+[2026-09-22 19:55:32] [info]: Processing job: 94
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test94@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 90 completed
+[2026-09-22 19:55:32] [info]: Job 91 completed
+[2026-09-22 19:55:32] [info]: Job 92 completed
+[2026-09-22 19:55:32] [info]: Job 93 completed
+[2026-09-22 19:55:32] [info]: Processing job: 95
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test95@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 96
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test96@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 97
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test97@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 98
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test98@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 94 completed
+[2026-09-22 19:55:32] [info]: Processing job: 99
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test99@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 95 completed
+[2026-09-22 19:55:32] [info]: Job 96 completed
+[2026-09-22 19:55:32] [info]: Job 97 completed
+[2026-09-22 19:55:32] [info]: Job 98 completed
+[2026-09-22 19:55:32] [info]: Processing job: 100
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test100@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 101
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test101@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 102
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test102@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 103
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test103@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 99 completed
+[2026-09-22 19:55:32] [info]: Processing job: 104
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test104@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 100 completed
+[2026-09-22 19:55:32] [info]: Job 101 completed
+[2026-09-22 19:55:32] [info]: Job 102 completed
+[2026-09-22 19:55:32] [info]: Job 103 completed
+[2026-09-22 19:55:32] [info]: Processing job: 105
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test105@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 106
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test106@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 107
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test107@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 108
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test108@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 104 completed
+[2026-09-22 19:55:32] [info]: Processing job: 109
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test109@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 105 completed
+[2026-09-22 19:55:32] [info]: Processing job: 110
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test110@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 106 completed
+[2026-09-22 19:55:32] [info]: Job 107 completed
+[2026-09-22 19:55:32] [info]: Job 108 completed
+[2026-09-22 19:55:32] [info]: Job 109 completed
+[2026-09-22 19:55:32] [info]: Processing job: 111
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test111@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 112
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test112@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 113
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test113@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 114
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test114@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 110 completed
+[2026-09-22 19:55:32] [info]: Processing job: 115
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test115@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 111 completed
+[2026-09-22 19:55:32] [info]: Job 112 completed
+[2026-09-22 19:55:32] [info]: Job 113 completed
+[2026-09-22 19:55:32] [info]: Job 114 completed
+[2026-09-22 19:55:32] [info]: Processing job: 116
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test116@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 117
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test117@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 118
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test118@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 119
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test119@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 115 completed
+[2026-09-22 19:55:32] [info]: Processing job: 120
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test120@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 116 completed
+[2026-09-22 19:55:32] [info]: Job 117 completed
+[2026-09-22 19:55:32] [info]: Job 118 completed
+[2026-09-22 19:55:32] [info]: Job 119 completed
+[2026-09-22 19:55:32] [info]: Processing job: 121
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test121@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 122
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test122@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 123
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test123@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 124
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test124@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 120 completed
+[2026-09-22 19:55:32] [info]: Job 121 completed
+[2026-09-22 19:55:32] [info]: Job 122 completed
+[2026-09-22 19:55:32] [info]: Processing job: 125
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test125@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 126
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test126@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 127
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test127@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 123 completed
+[2026-09-22 19:55:32] [info]: Job 124 completed
+[2026-09-22 19:55:32] [info]: Processing job: 128
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test128@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 129
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test129@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 125 completed
+[2026-09-22 19:55:32] [info]: Job 126 completed
+[2026-09-22 19:55:32] [info]: Job 127 completed
+[2026-09-22 19:55:32] [info]: Processing job: 130
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test130@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 131
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test131@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 132
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test132@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 128 completed
+[2026-09-22 19:55:32] [info]: Job 129 completed
+[2026-09-22 19:55:32] [info]: Processing job: 133
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test133@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 134
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test134@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 130 completed
+[2026-09-22 19:55:32] [info]: Job 131 completed
+[2026-09-22 19:55:32] [info]: Job 132 completed
+[2026-09-22 19:55:32] [info]: Processing job: 135
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test135@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 136
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test136@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 137
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test137@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 133 completed
+[2026-09-22 19:55:32] [info]: Job 134 completed
+[2026-09-22 19:55:32] [info]: Processing job: 138
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test138@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 139
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test139@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 135 completed
+[2026-09-22 19:55:32] [info]: Job 136 completed
+[2026-09-22 19:55:32] [info]: Job 137 completed
+[2026-09-22 19:55:32] [info]: Processing job: 140
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test140@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 141
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test141@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 142
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test142@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 138 completed
+[2026-09-22 19:55:32] [info]: Job 139 completed
+[2026-09-22 19:55:32] [info]: Processing job: 143
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test143@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 144
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test144@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 140 completed
+[2026-09-22 19:55:32] [info]: Job 141 completed
+[2026-09-22 19:55:32] [info]: Job 142 completed
+[2026-09-22 19:55:32] [info]: Processing job: 145
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test145@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 146
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test146@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 147
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test147@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 143 completed
+[2026-09-22 19:55:32] [info]: Job 144 completed
+[2026-09-22 19:55:32] [info]: Processing job: 148
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test148@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 149
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test149@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 145 completed
+[2026-09-22 19:55:32] [info]: Job 146 completed
+[2026-09-22 19:55:32] [info]: Job 147 completed
+[2026-09-22 19:55:32] [info]: Processing job: 150
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test150@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 151
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test151@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 152
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test152@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 148 completed
+[2026-09-22 19:55:32] [info]: Job 149 completed
+[2026-09-22 19:55:32] [info]: Processing job: 153
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test153@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 154
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test154@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 150 completed
+[2026-09-22 19:55:32] [info]: Job 151 completed
+[2026-09-22 19:55:32] [info]: Job 152 completed
+[2026-09-22 19:55:32] [info]: Processing job: 155
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test155@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 156
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test156@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 157
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test157@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 153 completed
+[2026-09-22 19:55:32] [info]: Job 154 completed
+[2026-09-22 19:55:32] [info]: Processing job: 158
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test158@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 159
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test159@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 155 completed
+[2026-09-22 19:55:32] [info]: Job 156 completed
+[2026-09-22 19:55:32] [info]: Job 157 completed
+[2026-09-22 19:55:32] [info]: Processing job: 160
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test160@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 161
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test161@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 162
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test162@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 158 completed
+[2026-09-22 19:55:32] [info]: Job 159 completed
+[2026-09-22 19:55:32] [info]: Job 160 completed
+[2026-09-22 19:55:32] [info]: Job 161 completed
+[2026-09-22 19:55:32] [info]: Processing job: 163
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test163@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 164
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test164@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 165
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test165@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 166
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test166@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 162 completed
+[2026-09-22 19:55:32] [info]: Job 163 completed
+[2026-09-22 19:55:32] [info]: Processing job: 167
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test167@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 168
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test168@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 164 completed
+[2026-09-22 19:55:32] [info]: Job 165 completed
+[2026-09-22 19:55:32] [info]: Job 166 completed
+[2026-09-22 19:55:32] [info]: Processing job: 169
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test169@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 170
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test170@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 171
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test171@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 167 completed
+[2026-09-22 19:55:32] [info]: Job 168 completed
+[2026-09-22 19:55:32] [info]: Processing job: 172
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test172@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 173
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test173@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 169 completed
+[2026-09-22 19:55:32] [info]: Job 170 completed
+[2026-09-22 19:55:32] [info]: Job 171 completed
+[2026-09-22 19:55:32] [info]: Processing job: 174
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test174@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 175
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test175@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 176
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test176@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 172 completed
+[2026-09-22 19:55:32] [info]: Job 173 completed
+[2026-09-22 19:55:32] [info]: Processing job: 177
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test177@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 178
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test178@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 174 completed
+[2026-09-22 19:55:32] [info]: Job 175 completed
+[2026-09-22 19:55:32] [info]: Job 176 completed
+[2026-09-22 19:55:32] [info]: Processing job: 179
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test179@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 180
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test180@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 181
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test181@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 177 completed
+[2026-09-22 19:55:32] [info]: Job 178 completed
+[2026-09-22 19:55:32] [info]: Processing job: 182
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test182@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 183
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test183@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 179 completed
+[2026-09-22 19:55:32] [info]: Job 180 completed
+[2026-09-22 19:55:32] [info]: Job 181 completed
+[2026-09-22 19:55:32] [info]: Processing job: 184
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test184@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 185
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test185@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 186
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test186@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 182 completed
+[2026-09-22 19:55:32] [info]: Job 183 completed
+[2026-09-22 19:55:32] [info]: Processing job: 187
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test187@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 188
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test188@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 184 completed
+[2026-09-22 19:55:32] [info]: Job 185 completed
+[2026-09-22 19:55:32] [info]: Job 186 completed
+[2026-09-22 19:55:32] [info]: Processing job: 189
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test189@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 190
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test190@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 191
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test191@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 187 completed
+[2026-09-22 19:55:32] [info]: Job 188 completed
+[2026-09-22 19:55:32] [info]: Processing job: 192
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test192@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 193
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test193@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 189 completed
+[2026-09-22 19:55:32] [info]: Job 190 completed
+[2026-09-22 19:55:32] [info]: Job 191 completed
+[2026-09-22 19:55:32] [info]: Processing job: 194
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test194@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 195
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test195@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 196
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test196@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 192 completed
+[2026-09-22 19:55:32] [info]: Job 193 completed
+[2026-09-22 19:55:32] [info]: Processing job: 197
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test197@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 198
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test198@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 194 completed
+[2026-09-22 19:55:32] [info]: Job 195 completed
+[2026-09-22 19:55:32] [info]: Job 196 completed
+[2026-09-22 19:55:32] [info]: Processing job: 199
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test199@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Processing job: 200
+[2026-09-22 19:55:32] [info]: Sending OTP 123456 to test200@example.com with purpose LOGIN
+[2026-09-22 19:55:32] [info]: Job 197 completed
+[2026-09-22 19:55:32] [info]: Job 198 completed
+[2026-09-22 19:55:32] [info]: Job 199 completed
+[2026-09-22 19:55:32] [info]: Job 200 completed
+[2026-09-22 19:57:49] [info]: Redis connected
+[2026-09-22 19:57:49] [info]: Server is running on port 8000
+[2026-09-22 19:57:49] [info]: Redis connected
+[2026-09-22 19:57:49] [info]: Redis is ready
+[2026-09-22 19:57:49] [info]: Email worker is  ready
+[2026-09-22 20:00:04] [info]: Redis connected
+[2026-09-22 20:00:04] [info]: Server is running on port 8000
+[2026-09-22 20:00:04] [info]: Redis connected
+[2026-09-22 20:00:04] [info]: Redis is ready
+[2026-09-22 20:00:04] [info]: Email worker is  ready
+[2026-09-22 20:00:28] [info]: Redis connected
+[2026-09-22 20:00:28] [info]: Server is running on port 8000
+[2026-09-22 20:00:28] [info]: Redis connected
+[2026-09-22 20:00:28] [info]: Redis is ready
+[2026-09-22 20:00:28] [info]: Email worker is  ready
+[2026-09-22 20:00:47] [info]: Redis connected
+[2026-09-22 20:00:47] [info]: Server is running on port 8000
+[2026-09-22 20:00:47] [info]: Redis connected
+[2026-09-22 20:00:47] [info]: Redis is ready
+[2026-09-22 20:00:47] [info]: Email worker is  ready
+[2026-09-22 20:01:03] [info]: Redis connected
+[2026-09-22 20:01:03] [info]: Server is running on port 8000
+[2026-09-22 20:01:03] [info]: Redis connected
+[2026-09-22 20:01:04] [info]: Redis is ready
+[2026-09-22 20:01:04] [info]: Email worker is  ready
+[2026-09-22 20:02:20] [info]: Redis connected
+[2026-09-22 20:02:20] [info]: Server is running on port 8000
+[2026-09-22 20:02:20] [info]: Redis connected
+[2026-09-22 20:02:20] [info]: Redis is ready
+[2026-09-22 20:02:20] [info]: Email worker is  ready
+[2026-09-22 20:02:27] [info]: SIGINT received. Shutting down gracefully...
+[2026-09-22 20:05:22] [info]: Redis connected
+[2026-09-22 20:05:22] [info]: Server is running on port 8000
+[2026-09-22 20:05:22] [info]: Redis connected
+[2026-09-22 20:05:22] [info]: Redis is ready
+[2026-09-22 20:05:22] [info]: Email worker is  ready
+[2026-09-22 20:05:36] [info]: Redis connected
+[2026-09-22 20:05:36] [info]: Redis connected
+[2026-09-22 20:05:36] [info]: Redis is ready
+[2026-09-22 20:05:36] [info]: Processing job: 201
+[2026-09-22 20:05:36] [info]: Sending OTP 123456 to test@example.com with purpose LOGIN
+[2026-09-22 20:05:36] [error]: Job 201 failed: TEST: Email service failed
+[2026-09-22 20:06:34] [info]: Redis connected
+[2026-09-22 20:06:34] [info]: Server is running on port 8000
+[2026-09-22 20:06:34] [info]: Redis connected
+[2026-09-22 20:06:34] [info]: Redis is ready
+[2026-09-22 20:06:34] [info]: Email worker is  ready
+[2026-09-22 20:06:44] [info]: Redis connected
+[2026-09-22 20:06:44] [info]: Redis connected
+[2026-09-22 20:06:45] [info]: Redis is ready
+[2026-09-22 20:06:45] [info]: Processing job: 202
+[2026-09-22 20:06:45] [info]: Sending OTP 123456 to test@example.com with purpose LOGIN
+[2026-09-22 20:06:45] [error]: Job 202 failed: TEST: Email service failed
+[2026-09-22 20:06:47] [info]: Processing job: 202
+[2026-09-22 20:06:47] [info]: Sending OTP 123456 to test@example.com with purpose LOGIN
+[2026-09-22 20:06:47] [error]: Job 202 failed: TEST: Email service failed
+[2026-09-22 20:06:51] [info]: Processing job: 202
+[2026-09-22 20:06:51] [info]: Sending OTP 123456 to test@example.com with purpose LOGIN
+[2026-09-22 20:06:51] [error]: Job 202 failed: TEST: Email service failed
+[2026-09-22 20:08:03] [info]: SIGINT received. Shutting down gracefully...

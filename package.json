@@ -7,6 +7,8 @@
     "build": "tsc",
     "start": "npm run build && node dist/server.js",
     "dev": "nodemon --exec tsx src/server.ts",
+    "test:queue:pass": "tsx src/queue/test.pass.email.queue.ts",
+     "test:queue:fail": "tsx src/queue/test.fail.email.queue.ts",
     "postinstall": "prisma skills sync || exit 0"
   },
   "keywords": [],

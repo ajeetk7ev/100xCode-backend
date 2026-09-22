@@ -11,15 +11,20 @@ const emailWorker = new Worker(
       const { email, otp, purpose } = job.data;
 
       logger.info(`Sending OTP ${otp} to ${email} with purpose ${purpose}`);
-
+      // Force failure for testing
+      throw new Error("TEST: Email service failed");
       // await emailService.sendOtp(email, otp, purpose);
     }
   },
   {
     connection: redis,
     concurrency: 5,
-  }
+  },
 );
+
+emailWorker.on("ready", () => {
+  logger.info(`Email worker is  ready`);
+});
 
 emailWorker.on("completed", (job) => {
   logger.info(`Job ${job.id} completed`);

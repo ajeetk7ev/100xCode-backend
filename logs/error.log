@@ -86,3 +86,7 @@ D:\100xCode\backend\src\app.ts:29:34
   28 
 → 29 const user = await prisma.user.create(
 Null constraint violation on the (not available)
+[2026-09-22 20:05:36] [error]: Job 201 failed: TEST: Email service failed
+[2026-09-22 20:06:45] [error]: Job 202 failed: TEST: Email service failed
+[2026-09-22 20:06:47] [error]: Job 202 failed: TEST: Email service failed
+[2026-09-22 20:06:51] [error]: Job 202 failed: TEST: Email service failed
