@@ -11,6 +11,9 @@ const job = await emailQueue.add("send-otp", {
       type: "exponential",
       delay: 2000,
     },
+
+    removeOnComplete: true,
+    removeOnFail: false, //failed job remains available for inspection.
   }
 );
 

@@ -33,3 +33,13 @@ emailWorker.on("completed", (job) => {
 emailWorker.on("failed", (job, error) => {
   logger.error(`Job ${job?.id} failed: ${error.message}`);
 });
+
+
+emailWorker.on("failed", (job, error) => {
+  logger.error("Email job failed", {
+    jobId: job?.id,
+    jobName: job?.name,
+    attemptsMade: job?.attemptsMade,
+    error: error.message,
+  });
+});
