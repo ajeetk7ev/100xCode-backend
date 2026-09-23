@@ -8,7 +8,7 @@
     "start": "npm run build && node dist/server.js",
     "dev": "nodemon --exec tsx src/server.ts",
     "test:queue:pass": "tsx src/queue/test.pass.email.queue.ts",
-     "test:queue:fail": "tsx src/queue/test.fail.email.queue.ts",
+    "test:queue:fail": "tsx src/queue/test.fail.email.queue.ts",
     "postinstall": "prisma skills sync || exit 0"
   },
   "keywords": [],
@@ -22,6 +22,7 @@
     "dotenv": "^18.0.1",
     "express": "^5.2.1",
     "ioredis": "^6.0.0",
+    "nodemailer": "^10.0.10",
     "pg": "^8.23.0",
     "winston": "^3.19.0"
   },
