@@ -1,20 +1,14 @@
 import { Worker, type Job } from "bullmq";
 import { redis } from "../config/redis.ts";
 import logger from "../config/logger.ts";
+import { emailService } from "../services/email/email.service.ts";
 
 const emailWorker = new Worker(
   "email",
   async (job: Job) => {
-    logger.info(`Processing job: ${job.id}`);
+    logger.info(`Processing email job: ${job.id}`);
 
-    if (job.name === "send-otp") {
-      const { email, otp, purpose } = job.data;
-
-      logger.info(`Sending OTP ${otp} to ${email} with purpose ${purpose}`);
-      // Force failure for testing
-      throw new Error("TEST: Email service failed");
-      // await emailService.sendOtp(email, otp, purpose);
-    }
+    await emailService.sendEmail(job.data);
   },
   {
     connection: redis,
@@ -33,7 +27,6 @@ emailWorker.on("completed", (job) => {
 emailWorker.on("failed", (job, error) => {
   logger.error(`Job ${job?.id} failed: ${error.message}`);
 });
-
 
 emailWorker.on("failed", (job, error) => {
   logger.error("Email job failed", {
