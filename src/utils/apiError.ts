@@ -2,10 +2,10 @@
 class ApiError extends Error {
     public statusCode: number;
     public success: boolean;
-    public errors: unknown[];
+    public errors: Record<string, string>;
     // public messages: string;
 
-    constructor(statusCode: number, message: string, errors: unknown[] = []){
+    constructor(statusCode: number, message: string, errors: Record<string, string> = {}){
            super(message);
            this.success = false;
            this.errors = errors;

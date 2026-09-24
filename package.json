@@ -24,7 +24,8 @@
     "ioredis": "^6.0.0",
     "nodemailer": "^10.0.10",
     "pg": "^8.23.0",
-    "winston": "^3.19.0"
+    "winston": "^3.19.0",
+    "zod": "^4.6.5"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
