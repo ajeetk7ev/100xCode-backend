@@ -3,6 +3,7 @@ import dotenv from "dotenv";
 import errorHandler from "./middlewares/errorHandler.ts";
 import notFoundHandler from "./middlewares/notFoundHandler.ts";
 dotenv.config();
+import authRoutes from "./routes/auth/auth.route.ts";
 import "./workers/email.worker.ts"
 
 const app = express();
@@ -16,6 +17,8 @@ app.get("/health", (_, res) => {
 });
 
 
+
+app.use("/api/v1/auth", authRoutes);
 
 app.use(notFoundHandler);
 

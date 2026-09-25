@@ -853,3 +853,249 @@ Null constraint violation on the (not available)
 [2026-09-22 20:06:51] [info]: Sending OTP 123456 to test@example.com with purpose LOGIN
 [2026-09-22 20:06:51] [error]: Job 202 failed: TEST: Email service failed
 [2026-09-22 20:08:03] [info]: SIGINT received. Shutting down gracefully...
+[2026-09-25 20:17:52] [info]: Redis connected
+[2026-09-25 20:17:52] [info]: Server is running on port 8000
+[2026-09-25 20:17:52] [info]: Redis connected
+[2026-09-25 20:17:52] [info]: Redis is ready
+[2026-09-25 20:17:52] [info]: Email worker is  ready
+[2026-09-25 20:23:41] [error]: [POST] /api/v1/auth/register - 400 - Validation failed
+[2026-09-25 20:24:22] [error]: [POST] /api/v1/auth/register - 400 - Validation failed
+[2026-09-25 20:24:40] [error]: [POST] /api/v1/auth/register - 400 - Validation failed
+[2026-09-25 20:24:48] [error]: [POST] /api/v1/auth/register - undefined - 
+Invalid `prisma.user.findUnique()` invocation in
+D:\100xCode\backend\src\repositories\user\user.repositories.ts:15:30
+
+  12 
+  13 class UserRepository {
+  14   static async findUserByEmail(email: string) {
+→ 15     return await prisma.user.findUnique(
+
+[2026-09-25 20:24:48] [error]: PrismaClientKnownRequestError: 
+Invalid `prisma.user.findUnique()` invocation in
+D:\100xCode\backend\src\repositories\user\user.repositories.ts:15:30
+
+  12 
+  13 class UserRepository {
+  14   static async findUserByEmail(email: string) {
+→ 15     return await prisma.user.findUnique(
+
+    at vn.handleRequestError (D:\100xCode\backend\node_modules\@prisma\client\src\runtime\RequestHandler.ts:238:13)
+    at vn.handleAndLogRequestError (D:\100xCode\backend\node_modules\@prisma\client\src\runtime\RequestHandler.ts:184:12)
+    at vn.request (D:\100xCode\backend\node_modules\@prisma\client\src\runtime\RequestHandler.ts:153:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async a (D:\100xCode\backend\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:1014:24)
+    at async Function.findUserByEmail (D:\100xCode\backend\src\repositories\user\user.repositories.ts:15:12)
+    at async Function.register (D:\100xCode\backend\src\services\auth\auth.service.ts:12:18)
+    at async register (D:\100xCode\backend\src\controllers\auth\auth.controller.ts:28:53)
+[2026-09-25 20:26:24] [error]: [POST] /api/v1/auth/register - undefined - 
+Invalid `prisma.user.create()` invocation in
+D:\100xCode\backend\src\repositories\user\user.repositories.ts:23:30
+
+  20 }
+  21 
+  22 static async createUser(data: CreateUserData) {
+→ 23   return await prisma.user.create(
+Null constraint violation on the (not available)
+[2026-09-25 20:26:24] [error]: PrismaClientKnownRequestError: 
+Invalid `prisma.user.create()` invocation in
+D:\100xCode\backend\src\repositories\user\user.repositories.ts:23:30
+
+  20 }
+  21 
+  22 static async createUser(data: CreateUserData) {
+→ 23   return await prisma.user.create(
+Null constraint violation on the (not available)
+    at vn.handleRequestError (D:\100xCode\backend\node_modules\@prisma\client\src\runtime\RequestHandler.ts:238:13)
+    at vn.handleAndLogRequestError (D:\100xCode\backend\node_modules\@prisma\client\src\runtime\RequestHandler.ts:184:12)
+    at vn.request (D:\100xCode\backend\node_modules\@prisma\client\src\runtime\RequestHandler.ts:153:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async a (D:\100xCode\backend\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:1014:24)
+    at async Function.createUser (D:\100xCode\backend\src\repositories\user\user.repositories.ts:23:12)
+    at async Function.register (D:\100xCode\backend\src\services\auth\auth.service.ts:21:21)
+    at async register (D:\100xCode\backend\src\controllers\auth\auth.controller.ts:28:53)
+[2026-09-25 20:26:28] [info]: SIGINT received. Shutting down gracefully...
+[2026-09-25 20:26:37] [info]: Redis connected
+[2026-09-25 20:26:37] [info]: Server is running on port 8000
+[2026-09-25 20:26:37] [info]: Redis connected
+[2026-09-25 20:26:37] [info]: Redis is ready
+[2026-09-25 20:26:37] [info]: Email worker is  ready
+[2026-09-25 20:26:43] [error]: [POST] /api/v1/auth/register - undefined - 
+Invalid `prisma.user.create()` invocation in
+D:\100xCode\backend\src\repositories\user\user.repositories.ts:23:30
+
+  20 }
+  21 
+  22 static async createUser(data: CreateUserData) {
+→ 23   return await prisma.user.create(
+Null constraint violation on the (not available)
+[2026-09-25 20:26:43] [error]: PrismaClientKnownRequestError: 
+Invalid `prisma.user.create()` invocation in
+D:\100xCode\backend\src\repositories\user\user.repositories.ts:23:30
+
+  20 }
+  21 
+  22 static async createUser(data: CreateUserData) {
+→ 23   return await prisma.user.create(
+Null constraint violation on the (not available)
+    at vn.handleRequestError (D:\100xCode\backend\node_modules\@prisma\client\src\runtime\RequestHandler.ts:238:13)
+    at vn.handleAndLogRequestError (D:\100xCode\backend\node_modules\@prisma\client\src\runtime\RequestHandler.ts:184:12)
+    at vn.request (D:\100xCode\backend\node_modules\@prisma\client\src\runtime\RequestHandler.ts:153:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async a (D:\100xCode\backend\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:1014:24)
+    at async Function.createUser (D:\100xCode\backend\src\repositories\user\user.repositories.ts:23:12)
+    at async Function.register (D:\100xCode\backend\src\services\auth\auth.service.ts:21:21)
+    at async register (D:\100xCode\backend\src\controllers\auth\auth.controller.ts:28:53)
+[2026-09-25 20:27:46] [info]: Redis connected
+[2026-09-25 20:27:46] [info]: Server is running on port 8000
+[2026-09-25 20:27:46] [info]: Redis connected
+[2026-09-25 20:27:46] [info]: Redis is ready
+[2026-09-25 20:27:46] [info]: Email worker is  ready
+[2026-09-25 20:27:49] [error]: [POST] /api/v1/auth/register - undefined - 
+Invalid `prisma.user.create()` invocation in
+D:\100xCode\backend\src\repositories\user\user.repositories.ts:24:30
+
+  21 
+  22 static async createUser(data: CreateUserData) {
+  23   console.log("USER DATA", data);
+→ 24   return await prisma.user.create(
+Null constraint violation on the (not available)
+[2026-09-25 20:27:49] [error]: PrismaClientKnownRequestError: 
+Invalid `prisma.user.create()` invocation in
+D:\100xCode\backend\src\repositories\user\user.repositories.ts:24:30
+
+  21 
+  22 static async createUser(data: CreateUserData) {
+  23   console.log("USER DATA", data);
+→ 24   return await prisma.user.create(
+Null constraint violation on the (not available)
+    at vn.handleRequestError (D:\100xCode\backend\node_modules\@prisma\client\src\runtime\RequestHandler.ts:238:13)
+    at vn.handleAndLogRequestError (D:\100xCode\backend\node_modules\@prisma\client\src\runtime\RequestHandler.ts:184:12)
+    at vn.request (D:\100xCode\backend\node_modules\@prisma\client\src\runtime\RequestHandler.ts:153:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async a (D:\100xCode\backend\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:1014:24)
+    at async Function.createUser (D:\100xCode\backend\src\repositories\user\user.repositories.ts:24:12)
+    at async Function.register (D:\100xCode\backend\src\services\auth\auth.service.ts:21:21)
+    at async register (D:\100xCode\backend\src\controllers\auth\auth.controller.ts:28:53)
+[2026-09-25 20:28:47] [error]: [POST] /api/v1/auth/register - undefined - 
+Invalid `prisma.user.create()` invocation in
+D:\100xCode\backend\src\repositories\user\user.repositories.ts:24:30
+
+  21 
+  22 static async createUser(data: CreateUserData) {
+  23   console.log("USER DATA", data);
+→ 24   return await prisma.user.create(
+Null constraint violation on the (not available)
+[2026-09-25 20:28:47] [error]: PrismaClientKnownRequestError: 
+Invalid `prisma.user.create()` invocation in
+D:\100xCode\backend\src\repositories\user\user.repositories.ts:24:30
+
+  21 
+  22 static async createUser(data: CreateUserData) {
+  23   console.log("USER DATA", data);
+→ 24   return await prisma.user.create(
+Null constraint violation on the (not available)
+    at vn.handleRequestError (D:\100xCode\backend\node_modules\@prisma\client\src\runtime\RequestHandler.ts:238:13)
+    at vn.handleAndLogRequestError (D:\100xCode\backend\node_modules\@prisma\client\src\runtime\RequestHandler.ts:184:12)
+    at vn.request (D:\100xCode\backend\node_modules\@prisma\client\src\runtime\RequestHandler.ts:153:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async a (D:\100xCode\backend\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:1014:24)
+    at async Function.createUser (D:\100xCode\backend\src\repositories\user\user.repositories.ts:24:12)
+    at async Function.register (D:\100xCode\backend\src\services\auth\auth.service.ts:21:21)
+    at async register (D:\100xCode\backend\src\controllers\auth\auth.controller.ts:28:53)
+[2026-09-25 20:29:05] [info]: SIGINT received. Shutting down gracefully...
+[2026-09-25 20:30:35] [info]: Redis connected
+[2026-09-25 20:30:35] [info]: Server is running on port 8000
+[2026-09-25 20:30:35] [info]: Redis connected
+[2026-09-25 20:30:35] [info]: Redis is ready
+[2026-09-25 20:30:35] [info]: Email worker is  ready
+[2026-09-25 20:30:38] [error]: [POST] /api/v1/auth/register - undefined - Cannot read properties of undefined (reading 'setAuthCookies')
+[2026-09-25 20:30:38] [error]: TypeError: Cannot read properties of undefined (reading 'setAuthCookies')
+    at register (D:\100xCode\backend\src\controllers\auth\auth.controller.ts:32:10)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+[2026-09-25 20:33:44] [info]: Redis connected
+[2026-09-25 20:33:44] [info]: Server is running on port 8000
+[2026-09-25 20:33:44] [info]: Redis connected
+[2026-09-25 20:33:44] [info]: Redis is ready
+[2026-09-25 20:33:44] [info]: Email worker is  ready
+[2026-09-25 20:34:32] [info]: Redis connected
+[2026-09-25 20:34:32] [info]: Server is running on port 8000
+[2026-09-25 20:34:32] [info]: Redis connected
+[2026-09-25 20:34:32] [info]: Redis is ready
+[2026-09-25 20:34:32] [info]: Email worker is  ready
+[2026-09-25 20:34:38] [error]: [POST] /api/v1/auth/register - 409 - Email already exists
+[2026-09-25 20:36:44] [info]: Redis connected
+[2026-09-25 20:36:44] [info]: Server is running on port 8000
+[2026-09-25 20:36:44] [info]: Redis connected
+[2026-09-25 20:36:44] [info]: Redis is ready
+[2026-09-25 20:36:44] [info]: Email worker is  ready
+[2026-09-25 20:40:41] [info]: Redis connected
+[2026-09-25 20:40:41] [info]: Server is running on port 8000
+[2026-09-25 20:40:41] [info]: Redis connected
+[2026-09-25 20:40:41] [info]: Redis is ready
+[2026-09-25 20:40:41] [info]: Email worker is  ready
+[2026-09-25 20:42:12] [info]: Redis connected
+[2026-09-25 20:42:12] [info]: Server is running on port 8000
+[2026-09-25 20:42:12] [info]: Redis connected
+[2026-09-25 20:42:12] [info]: Redis is ready
+[2026-09-25 20:42:12] [info]: Email worker is  ready
+[2026-09-25 20:42:39] [info]: Redis connected
+[2026-09-25 20:42:39] [info]: Server is running on port 8000
+[2026-09-25 20:42:39] [info]: Redis connected
+[2026-09-25 20:42:39] [info]: Redis is ready
+[2026-09-25 20:42:39] [info]: Email worker is  ready
+[2026-09-25 20:43:07] [info]: Redis connected
+[2026-09-25 20:43:07] [info]: Server is running on port 8000
+[2026-09-25 20:43:07] [info]: Redis connected
+[2026-09-25 20:43:07] [info]: Redis is ready
+[2026-09-25 20:43:07] [info]: Email worker is  ready
+[2026-09-25 20:44:20] [info]: Redis connected
+[2026-09-25 20:44:20] [info]: Server is running on port 8000
+[2026-09-25 20:44:20] [info]: Redis connected
+[2026-09-25 20:44:20] [info]: Redis is ready
+[2026-09-25 20:44:20] [info]: Email worker is  ready
+[2026-09-25 20:45:47] [info]: Redis connected
+[2026-09-25 20:45:47] [info]: Server is running on port 8000
+[2026-09-25 20:45:47] [info]: Redis connected
+[2026-09-25 20:45:47] [info]: Redis is ready
+[2026-09-25 20:45:47] [info]: Email worker is  ready
+[2026-09-25 20:46:20] [info]: Redis connected
+[2026-09-25 20:46:20] [info]: Server is running on port 8000
+[2026-09-25 20:46:20] [info]: Redis connected
+[2026-09-25 20:46:20] [info]: Redis is ready
+[2026-09-25 20:46:20] [info]: Email worker is  ready
+[2026-09-25 20:46:39] [info]: Redis connected
+[2026-09-25 20:46:39] [info]: Server is running on port 8000
+[2026-09-25 20:46:39] [info]: Redis connected
+[2026-09-25 20:46:39] [info]: Redis is ready
+[2026-09-25 20:46:39] [info]: Email worker is  ready
+[2026-09-25 20:48:10] [info]: Redis connected
+[2026-09-25 20:48:10] [info]: Server is running on port 8000
+[2026-09-25 20:48:10] [info]: Redis connected
+[2026-09-25 20:48:10] [info]: Redis is ready
+[2026-09-25 20:48:10] [info]: Email worker is  ready
+[2026-09-25 20:48:45] [info]: Redis connected
+[2026-09-25 20:48:45] [info]: Server is running on port 8000
+[2026-09-25 20:48:45] [info]: Redis connected
+[2026-09-25 20:48:46] [info]: Redis is ready
+[2026-09-25 20:48:46] [info]: Email worker is  ready
+[2026-09-25 20:49:06] [info]: Redis connected
+[2026-09-25 20:49:06] [info]: Server is running on port 8000
+[2026-09-25 20:49:06] [info]: Redis connected
+[2026-09-25 20:49:06] [info]: Redis is ready
+[2026-09-25 20:49:06] [info]: Email worker is  ready
+[2026-09-25 20:49:52] [info]: Redis connected
+[2026-09-25 20:49:52] [info]: Server is running on port 8000
+[2026-09-25 20:49:52] [info]: Redis connected
+[2026-09-25 20:49:53] [info]: Redis is ready
+[2026-09-25 20:49:53] [info]: Email worker is  ready
+[2026-09-25 20:51:08] [info]: Redis connected
+[2026-09-25 20:51:08] [info]: Server is running on port 8000
+[2026-09-25 20:51:08] [info]: Redis connected
+[2026-09-25 20:51:08] [info]: Redis is ready
+[2026-09-25 20:51:08] [info]: Email worker is  ready
+[2026-09-25 20:51:50] [info]: Redis connected
+[2026-09-25 20:51:50] [info]: Server is running on port 8000
+[2026-09-25 20:51:50] [info]: Redis connected
+[2026-09-25 20:51:50] [info]: Redis is ready
+[2026-09-25 20:51:50] [info]: Email worker is  ready
+[2026-09-25 20:52:12] [info]: SIGINT received. Shutting down gracefully...
