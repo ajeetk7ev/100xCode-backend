@@ -1,7 +1,7 @@
 import UserRepository from "../../repositories/user/user.repositories.ts";
 import ApiError from "../../utils/apiError.ts";
 import { hashPassword, comparePassword } from "../../utils/bcrypt.ts";
-import { generateTokens } from "../../utils/jwt.ts";
+import { generateTokens, verifyRefreshToken } from "../../utils/jwt.ts";
 import { type Register } from "./auth.types.ts";
 
 class AuthService {
@@ -70,6 +70,26 @@ class AuthService {
       accessToken,
       refreshToken,
     };
+  }
+
+  static async refreshAuthToken(refreshToken:string) {
+    if (!refreshToken) {
+      throw new ApiError(401, "Refresh token is required");
+    }
+
+    const result = verifyRefreshToken(refreshToken);
+
+    if (!result.valid) {
+      if (result.expired) {
+        throw new ApiError(401, "Refresh token expired");
+      }
+
+      throw new ApiError(401, "Invalid refresh token");
+    }
+
+    const {userId, role} = result.decoded as {userId:string, role:string};
+
+    return generateTokens({userId, role});
   }
 }
 

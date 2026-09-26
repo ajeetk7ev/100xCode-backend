@@ -228,3 +228,4 @@ Null constraint violation on the (not available)
     at register (D:\100xCode\backend\src\controllers\auth\auth.controller.ts:32:10)
     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
 [2026-09-25 20:34:38] [error]: [POST] /api/v1/auth/register - 409 - Email already exists
+[2026-09-25 20:59:04] [error]: [POST] /api/v1/auth/register - 409 - Email already exists

@@ -11,5 +11,6 @@ const authController = new AuthController();
 
 router.post("/register", validate(registerSchema), asyncHandler(authController.register));
 router.post("/login", validate(loginSchema), asyncHandler(authController.login));
+router.post("/refresh", asyncHandler(authController.refreshAuthToken));
 
 export default router;

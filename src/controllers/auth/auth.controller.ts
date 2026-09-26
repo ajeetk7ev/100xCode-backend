@@ -33,7 +33,7 @@ class AuthController {
 
     res.status(201).json(
       new ApiResponse(201, "User Registered Successfully", {
-        user:safeUser,
+        user: safeUser,
         accessToken,
         refreshToken,
       }),
@@ -47,7 +47,30 @@ class AuthController {
 
     this.setAuthCookies(res, accessToken, refreshToken);
 
-    res.status(200).json(new ApiResponse(200, "Logged In Successfully", {user:safeUser, accessToken, refreshToken}));
+    res.status(200).json(
+      new ApiResponse(200, "Logged In Successfully", {
+        user: safeUser,
+        accessToken,
+        refreshToken,
+      }),
+    );
+  };
+
+  refreshAuthToken = async (req: Request, res: Response): Promise<void> => {
+    const { accessToken, refreshToken } = await AuthService.refreshAuthToken(
+      req.cookies.refreshToken,
+    );
+
+    this.setAuthCookies(res, accessToken, refreshToken);
+
+    res
+      .status(200)
+      .json(
+        new ApiResponse(200, "Auth token refresh successfully", {
+          accessToken,
+          
+        }),
+      );
   };
 }
 
