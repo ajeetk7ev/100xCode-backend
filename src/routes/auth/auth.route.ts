@@ -6,11 +6,13 @@ import { validate } from "../../middlewares/validate.ts";
 import { registerSchema } from "../../schemas/auth/register.schema.ts";
 import asyncHandler from "../../utils/asyncHandler.ts";
 import { loginSchema } from "../../schemas/auth/login.schema.ts";
+import { authenticate } from "../../middlewares/auth.middleware.ts";
 
 const authController = new AuthController();
 
 router.post("/register", validate(registerSchema), asyncHandler(authController.register));
 router.post("/login", validate(loginSchema), asyncHandler(authController.login));
 router.post("/refresh", asyncHandler(authController.refreshAuthToken));
+router.get("/me", authenticate, asyncHandler(authController.getCurrentUser));
 
 export default router;

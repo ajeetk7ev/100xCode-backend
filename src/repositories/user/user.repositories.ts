@@ -33,6 +33,27 @@ class UserRepository {
       
     });
   }
+
+  static async findUserById(userId: string) {
+  return prisma.user.findUnique({
+    where: {
+      id: userId,
+    },
+    select: {
+      id: true,
+      firstname: true,
+      middlename: true,
+      lastname: true,
+      image:true,
+      email: true,
+      country: true,
+      state: true,
+      role: true,
+      createdAt: true,
+      updatedAt: true,
+    },
+  });
+}
 }
 
 export default UserRepository;

@@ -63,14 +63,19 @@ class AuthController {
 
     this.setAuthCookies(res, accessToken, refreshToken);
 
+    res.status(200).json(
+      new ApiResponse(200, "Auth token refresh successfully", {
+        accessToken,
+      }),
+    );
+  };
+
+  getCurrentUser = async (req: Request, res: Response): Promise<void> => {
+    const user = await AuthService.getCurrentUser(req.user!.userId);
+
     res
       .status(200)
-      .json(
-        new ApiResponse(200, "Auth token refresh successfully", {
-          accessToken,
-          
-        }),
-      );
+      .json(new ApiResponse(200, "User details fetched successfully", user));
   };
 }
 

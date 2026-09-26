@@ -91,6 +91,16 @@ class AuthService {
 
     return generateTokens({userId, role});
   }
+
+  static async getCurrentUser(userId: string) {
+  const user = await UserRepository.findUserById(userId);
+
+  if (!user) {
+    throw new ApiError(404, "User not found");
+  }
+
+  return user;
+}
 }
 
 export default AuthService;
