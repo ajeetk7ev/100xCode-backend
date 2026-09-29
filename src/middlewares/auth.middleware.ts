@@ -7,7 +7,6 @@ export const authenticate = async (
   _res: Response,
   next: NextFunction,
 ): Promise<void> => {
-  // 1. Try Authorization header
   const authHeader = req.headers.authorization;
 
   let accessToken: string | undefined;
@@ -16,7 +15,6 @@ export const authenticate = async (
     accessToken = authHeader.split(" ")[1];
   }
 
-  // 2. Fallback to cookie
   if (!accessToken) {
     accessToken = req.cookies?.accessToken;
   }
