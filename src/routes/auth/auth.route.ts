@@ -15,4 +15,7 @@ router.post("/login", validate(loginSchema), asyncHandler(authController.login))
 router.post("/refresh", asyncHandler(authController.refreshAuthToken));
 router.get("/me", authenticate, asyncHandler(authController.getCurrentUser));
 
+//OTP
+router.post("/send-otp", asyncHandler(authController.sendOtp));
+
 export default router;

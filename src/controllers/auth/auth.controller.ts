@@ -77,6 +77,12 @@ class AuthController {
       .status(200)
       .json(new ApiResponse(200, "User details fetched successfully", user));
   };
+
+  sendOtp = async (req:Request, res:Response) : Promise<void> => {
+    await AuthService.sendOTP(req.body);
+
+    res.status(200).json(new ApiResponse(200, "If an account exists with this email, an OTP has been sent.",null));
+  }
 }
 
 export default AuthController;
