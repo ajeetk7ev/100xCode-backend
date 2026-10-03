@@ -1,8 +1,13 @@
+import bcrypt from "bcryptjs";
 import UserRepository from "../../repositories/user/user.repositories.ts";
 import ApiError from "../../utils/apiError.ts";
 import { hashPassword, comparePassword } from "../../utils/bcrypt.ts";
 import { generateTokens, verifyRefreshToken } from "../../utils/jwt.ts";
+import generateOTP from "../../utils/otp.ts";
 import { type Register } from "./auth.types.ts";
+import { OtpRepository } from "../../repositories/otp/otp.repository.ts";
+import { OtpHTMLTemplate } from "../email/template/otp.ts";
+import { emailQueue } from "../../queue/email.queue.ts";
 
 class AuthService {
   static async register(data: Register) {
@@ -72,7 +77,7 @@ class AuthService {
     };
   }
 
-  static async refreshAuthToken(refreshToken:string) {
+  static async refreshAuthToken(refreshToken: string) {
     if (!refreshToken) {
       throw new ApiError(401, "Refresh token is required");
     }
@@ -87,20 +92,69 @@ class AuthService {
       throw new ApiError(401, "Invalid refresh token");
     }
 
-    const {userId, role} = result.decoded as {userId:string, role:string};
+    const { userId, role } = result.decoded as { userId: string; role: string };
 
-    return generateTokens({userId, role});
+    return generateTokens({ userId, role });
   }
 
   static async getCurrentUser(userId: string) {
-  const user = await UserRepository.findUserById(userId);
+    const user = await UserRepository.findUserById(userId);
 
-  if (!user) {
-    throw new ApiError(404, "User not found");
+    if (!user) {
+      throw new ApiError(404, "User not found");
+    }
+
+    return user;
   }
 
-  return user;
-}
+  static async sendOTP(data: { email: string; purpose: string }) {
+    const { email, purpose } = data;
+
+    if (!email || !purpose) {
+      throw new ApiError(400, "Email and purpose are required");
+    }
+
+    const user = await UserRepository.findUserByEmail(email);
+
+    if (user) {
+      if (purpose === "LOGIN") {
+        const otp = generateOTP();
+        const hashedOtp = await bcrypt.hash(otp, 10);
+        await OtpRepository.deleteOtpByEmail(email, "LOGIN");
+        await OtpRepository.createOtp({
+          email,
+          otp: hashedOtp,
+          purpose: "LOGIN",
+          expiresAt: new Date(Date.now() + 5 * 60 * 1000),
+        });
+
+        //send otp on this email
+        const htmlContent = OtpHTMLTemplate(
+          user.firstname,
+          otp,
+          "log into your account",
+        );
+
+        await emailQueue.add(
+          "send-otp-email",
+          {
+            to: email,
+            subject: "Your 100xCode Login Verification Code",
+            html: htmlContent,
+            text: `Hi ${user.firstname},\n\nYou recently requested to ${purpose}. Please use the verification code below to complete this process:\n\n${otp}\n\nThis code will expire in 10 minutes.\nIf you didn't request this, you can safely ignore this email.`,
+          },
+          {
+            attempts: 3, // Retry if Nodemailer fails
+            backoff: {
+              type: "exponential",
+              delay: 1000,
+            },
+            removeOnComplete: true, // Keep Redis clean
+          },
+        );
+      }
+    }
+  }
 }
 
 export default AuthService;
