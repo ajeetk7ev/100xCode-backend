@@ -19,7 +19,7 @@ const env = {
   MAIL_FROM: process.env.MAIL_FROM,
   MAIL_HOST: process.env.MAIL_HOST,
   MAIL_PORT: process.env.MAIL_PORT,
-  SMTP_USER: process.env.MAIL_USER,
+  SMTP_USER: process.env.SMTP_USER,
   SMTP_PASS: process.env.SMTP_PASS,
 };
 

@@ -229,3 +229,88 @@ Null constraint violation on the (not available)
     at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
 [2026-09-25 20:34:38] [error]: [POST] /api/v1/auth/register - 409 - Email already exists
 [2026-09-25 20:59:04] [error]: [POST] /api/v1/auth/register - 409 - Email already exists
+[2026-10-03 20:50:59] [error]: [POST] /api/v1/auth/login - 400 - OTP not found
+[2026-10-03 20:51:55] [error]: [POST] /api/v1/auth/register - 409 - Email already exists
+[2026-10-03 20:53:05] [error]: Failed to send email
+[2026-10-03 20:53:05] [error]: Job 1 failed: Failed to send email
+[2026-10-03 20:53:05] [error]: Email job failed
+[2026-10-03 20:53:08] [error]: Failed to send email
+[2026-10-03 20:53:08] [error]: Job 1 failed: Failed to send email
+[2026-10-03 20:53:08] [error]: Email job failed
+[2026-10-03 20:53:12] [error]: Failed to send email
+[2026-10-03 20:53:12] [error]: Job 1 failed: Failed to send email
+[2026-10-03 20:53:12] [error]: Email job failed
+[2026-10-03 20:55:15] [error]: Failed to send email
+[2026-10-03 20:55:15] [error]: Job 203 failed: Failed to send email
+[2026-10-03 20:55:15] [error]: Email job failed
+[2026-10-03 20:55:18] [error]: Failed to send email
+[2026-10-03 20:55:18] [error]: Job 203 failed: Failed to send email
+[2026-10-03 20:55:18] [error]: Email job failed
+[2026-10-03 20:55:22] [error]: Failed to send email
+[2026-10-03 20:55:22] [error]: Job 203 failed: Failed to send email
+[2026-10-03 20:55:22] [error]: Email job failed
+[2026-10-03 20:57:10] [error]: Failed to send email
+[2026-10-03 20:57:10] [error]: Job 204 failed: Failed to send email
+[2026-10-03 20:57:10] [error]: Email job failed
+[2026-10-03 20:57:12] [error]: Failed to send email
+[2026-10-03 20:57:12] [error]: Job 204 failed: Failed to send email
+[2026-10-03 20:57:12] [error]: Email job failed
+[2026-10-03 20:57:16] [error]: Failed to send email
+[2026-10-03 20:57:16] [error]: Job 204 failed: Failed to send email
+[2026-10-03 20:57:16] [error]: Email job failed
+[2026-10-03 20:58:30] [error]: Failed to send email
+[2026-10-03 20:58:30] [error]: Job 205 failed: Failed to send email
+[2026-10-03 20:58:30] [error]: Email job failed
+[2026-10-03 20:58:32] [error]: Failed to send email
+[2026-10-03 20:58:32] [error]: Job 205 failed: Failed to send email
+[2026-10-03 20:58:32] [error]: Email job failed
+[2026-10-03 20:58:36] [error]: Failed to send email
+[2026-10-03 20:58:36] [error]: Job 205 failed: Failed to send email
+[2026-10-03 20:58:36] [error]: Email job failed
+[2026-10-03 20:59:12] [error]: Failed to send email
+[2026-10-03 20:59:12] [error]: Job 206 failed: Failed to send email
+[2026-10-03 20:59:12] [error]: Email job failed
+[2026-10-03 20:59:14] [error]: Failed to send email
+[2026-10-03 20:59:14] [error]: Job 206 failed: Failed to send email
+[2026-10-03 20:59:14] [error]: Email job failed
+[2026-10-03 20:59:18] [error]: Failed to send email
+[2026-10-03 20:59:18] [error]: Job 206 failed: Failed to send email
+[2026-10-03 20:59:18] [error]: Email job failed
+[2026-10-03 20:59:29] [error]: Failed to send email
+[2026-10-03 20:59:29] [error]: Job 207 failed: Failed to send email
+[2026-10-03 20:59:29] [error]: Email job failed
+[2026-10-03 20:59:32] [error]: Failed to send email
+[2026-10-03 20:59:32] [error]: Job 207 failed: Failed to send email
+[2026-10-03 20:59:32] [error]: Email job failed
+[2026-10-03 20:59:36] [error]: Failed to send email
+[2026-10-03 20:59:36] [error]: Job 207 failed: Failed to send email
+[2026-10-03 20:59:36] [error]: Email job failed
+[2026-10-03 20:59:56] [error]: Failed to send email
+[2026-10-03 20:59:56] [error]: Job 208 failed: Failed to send email
+[2026-10-03 20:59:56] [error]: Email job failed
+[2026-10-03 20:59:59] [error]: Failed to send email
+[2026-10-03 20:59:59] [error]: Job 208 failed: Failed to send email
+[2026-10-03 20:59:59] [error]: Email job failed
+[2026-10-03 21:00:03] [error]: Failed to send email
+[2026-10-03 21:00:03] [error]: Job 208 failed: Failed to send email
+[2026-10-03 21:00:03] [error]: Email job failed
+[2026-10-03 21:01:37] [error]: Job 209 failed: Failed to send email
+[2026-10-03 21:01:37] [error]: Email job failed
+[2026-10-03 21:01:40] [error]: Job 209 failed: Failed to send email
+[2026-10-03 21:01:40] [error]: Email job failed
+[2026-10-03 21:01:43] [error]: Job 209 failed: Failed to send email
+[2026-10-03 21:01:43] [error]: Email job failed
+[2026-10-03 21:03:58] [error]: Job 210 failed: Failed to send email
+[2026-10-03 21:03:58] [error]: Email job failed
+[2026-10-03 21:04:01] [error]: Job 210 failed: Failed to send email
+[2026-10-03 21:04:01] [error]: Email job failed
+[2026-10-03 21:04:05] [error]: Job 210 failed: Failed to send email
+[2026-10-03 21:04:05] [error]: Email job failed
+[2026-10-03 21:08:14] [error]: [POST] /api/v1/auth/login - 400 - Validation failed
+[2026-10-03 21:09:45] [error]: [POST] /api/v1/auth/login - 400 - Invalid OTP
+[2026-10-03 21:09:53] [error]: [POST] /api/v1/auth/login - 400 - Invalid OTP
+[2026-10-03 21:09:56] [error]: [POST] /api/v1/auth/login - 400 - Invalid OTP
+[2026-10-03 21:09:57] [error]: [POST] /api/v1/auth/login - 400 - Invalid OTP
+[2026-10-03 21:09:59] [error]: [POST] /api/v1/auth/login - 400 - Invalid OTP
+[2026-10-03 21:10:00] [error]: [POST] /api/v1/auth/login - 429 - Too many OTP attempts
+[2026-10-03 21:10:07] [error]: [POST] /api/v1/auth/login - 400 - OTP not found

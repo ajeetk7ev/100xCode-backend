@@ -15,6 +15,8 @@ class EmailService {
         text,
       });
 
+    
+
       logger.info("Email sent successfully", {
         to,
         subject,

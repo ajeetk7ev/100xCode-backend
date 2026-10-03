@@ -1119,3 +1119,249 @@ Null constraint violation on the (not available)
 [2026-09-25 22:39:30] [info]: Redis connected
 [2026-09-25 22:39:30] [info]: Redis connected
 [2026-09-25 22:39:30] [info]: Redis is ready
+[2026-10-03 20:49:59] [info]: Redis connected
+[2026-10-03 20:49:59] [info]: Server is running on port 8000
+[2026-10-03 20:49:59] [info]: Redis connected
+[2026-10-03 20:49:59] [info]: Redis is ready
+[2026-10-03 20:49:59] [info]: Email worker is  ready
+[2026-10-03 20:50:59] [error]: [POST] /api/v1/auth/login - 400 - OTP not found
+[2026-10-03 20:51:55] [error]: [POST] /api/v1/auth/register - 409 - Email already exists
+[2026-10-03 20:53:03] [info]: Processing email job: 1
+[2026-10-03 20:53:05] [error]: Failed to send email
+[2026-10-03 20:53:05] [error]: Job 1 failed: Failed to send email
+[2026-10-03 20:53:05] [error]: Email job failed
+[2026-10-03 20:53:06] [info]: Processing email job: 1
+[2026-10-03 20:53:08] [error]: Failed to send email
+[2026-10-03 20:53:08] [error]: Job 1 failed: Failed to send email
+[2026-10-03 20:53:08] [error]: Email job failed
+[2026-10-03 20:53:10] [info]: Processing email job: 1
+[2026-10-03 20:53:12] [error]: Failed to send email
+[2026-10-03 20:53:12] [error]: Job 1 failed: Failed to send email
+[2026-10-03 20:53:12] [error]: Email job failed
+[2026-10-03 20:55:08] [info]: Redis connected
+[2026-10-03 20:55:08] [info]: Server is running on port 8000
+[2026-10-03 20:55:08] [info]: Redis connected
+[2026-10-03 20:55:08] [info]: Redis is ready
+[2026-10-03 20:55:08] [info]: Email worker is  ready
+[2026-10-03 20:55:13] [info]: Processing email job: 203
+[2026-10-03 20:55:15] [error]: Failed to send email
+[2026-10-03 20:55:15] [error]: Job 203 failed: Failed to send email
+[2026-10-03 20:55:15] [error]: Email job failed
+[2026-10-03 20:55:16] [info]: Processing email job: 203
+[2026-10-03 20:55:18] [error]: Failed to send email
+[2026-10-03 20:55:18] [error]: Job 203 failed: Failed to send email
+[2026-10-03 20:55:18] [error]: Email job failed
+[2026-10-03 20:55:20] [info]: Processing email job: 203
+[2026-10-03 20:55:22] [error]: Failed to send email
+[2026-10-03 20:55:22] [error]: Job 203 failed: Failed to send email
+[2026-10-03 20:55:22] [error]: Email job failed
+[2026-10-03 20:55:34] [info]: Redis connected
+[2026-10-03 20:55:34] [info]: Server is running on port 8000
+[2026-10-03 20:55:34] [info]: Redis connected
+[2026-10-03 20:55:34] [info]: Redis is ready
+[2026-10-03 20:55:34] [info]: Email worker is  ready
+[2026-10-03 20:57:08] [info]: Processing email job: 204
+[2026-10-03 20:57:08] [info]: JOB DATA
+[2026-10-03 20:57:10] [error]: Failed to send email
+[2026-10-03 20:57:10] [error]: Job 204 failed: Failed to send email
+[2026-10-03 20:57:10] [error]: Email job failed
+[2026-10-03 20:57:11] [info]: Processing email job: 204
+[2026-10-03 20:57:11] [info]: JOB DATA
+[2026-10-03 20:57:12] [error]: Failed to send email
+[2026-10-03 20:57:12] [error]: Job 204 failed: Failed to send email
+[2026-10-03 20:57:12] [error]: Email job failed
+[2026-10-03 20:57:14] [info]: Processing email job: 204
+[2026-10-03 20:57:14] [info]: JOB DATA
+[2026-10-03 20:57:16] [error]: Failed to send email
+[2026-10-03 20:57:16] [error]: Job 204 failed: Failed to send email
+[2026-10-03 20:57:16] [error]: Email job failed
+[2026-10-03 20:57:56] [info]: Redis connected
+[2026-10-03 20:57:56] [info]: Server is running on port 8000
+[2026-10-03 20:57:56] [info]: Redis connected
+[2026-10-03 20:57:56] [info]: Redis is ready
+[2026-10-03 20:57:56] [info]: Email worker is  ready
+[2026-10-03 20:58:24] [info]: Redis connected
+[2026-10-03 20:58:24] [info]: Server is running on port 8000
+[2026-10-03 20:58:24] [info]: Redis connected
+[2026-10-03 20:58:24] [info]: Redis is ready
+[2026-10-03 20:58:24] [info]: Email worker is  ready
+[2026-10-03 20:58:28] [info]: Processing email job: 205
+[2026-10-03 20:58:28] [info]: PRINTING JOB DATA : 
+[2026-10-03 20:58:28] [info]: JOB DATA
+[2026-10-03 20:58:30] [error]: Failed to send email
+[2026-10-03 20:58:30] [error]: Job 205 failed: Failed to send email
+[2026-10-03 20:58:30] [error]: Email job failed
+[2026-10-03 20:58:31] [info]: Processing email job: 205
+[2026-10-03 20:58:31] [info]: PRINTING JOB DATA : 
+[2026-10-03 20:58:31] [info]: JOB DATA
+[2026-10-03 20:58:32] [error]: Failed to send email
+[2026-10-03 20:58:32] [error]: Job 205 failed: Failed to send email
+[2026-10-03 20:58:32] [error]: Email job failed
+[2026-10-03 20:58:34] [info]: Processing email job: 205
+[2026-10-03 20:58:34] [info]: PRINTING JOB DATA : 
+[2026-10-03 20:58:34] [info]: JOB DATA
+[2026-10-03 20:58:36] [error]: Failed to send email
+[2026-10-03 20:58:36] [error]: Job 205 failed: Failed to send email
+[2026-10-03 20:58:36] [error]: Email job failed
+[2026-10-03 20:58:48] [info]: SIGINT received. Shutting down gracefully...
+[2026-10-03 20:58:57] [info]: Redis connected
+[2026-10-03 20:58:57] [info]: Server is running on port 8000
+[2026-10-03 20:58:57] [info]: Redis connected
+[2026-10-03 20:58:57] [info]: Redis is ready
+[2026-10-03 20:58:57] [info]: Email worker is  ready
+[2026-10-03 20:59:10] [info]: Processing email job: 206
+[2026-10-03 20:59:10] [info]: PRINTING JOB DATA : 
+[2026-10-03 20:59:10] [info]: JOB DATA
+[2026-10-03 20:59:12] [error]: Failed to send email
+[2026-10-03 20:59:12] [error]: Job 206 failed: Failed to send email
+[2026-10-03 20:59:12] [error]: Email job failed
+[2026-10-03 20:59:13] [info]: Processing email job: 206
+[2026-10-03 20:59:13] [info]: PRINTING JOB DATA : 
+[2026-10-03 20:59:13] [info]: JOB DATA
+[2026-10-03 20:59:14] [error]: Failed to send email
+[2026-10-03 20:59:14] [error]: Job 206 failed: Failed to send email
+[2026-10-03 20:59:14] [error]: Email job failed
+[2026-10-03 20:59:16] [info]: Processing email job: 206
+[2026-10-03 20:59:16] [info]: PRINTING JOB DATA : 
+[2026-10-03 20:59:16] [info]: JOB DATA
+[2026-10-03 20:59:18] [error]: Failed to send email
+[2026-10-03 20:59:18] [error]: Job 206 failed: Failed to send email
+[2026-10-03 20:59:18] [error]: Email job failed
+[2026-10-03 20:59:22] [info]: Redis connected
+[2026-10-03 20:59:22] [info]: Server is running on port 8000
+[2026-10-03 20:59:22] [info]: Redis connected
+[2026-10-03 20:59:23] [info]: Redis is ready
+[2026-10-03 20:59:23] [info]: Email worker is  ready
+[2026-10-03 20:59:28] [info]: Processing email job: 207
+[2026-10-03 20:59:28] [info]: PRINTING JOB DATA : 
+[2026-10-03 20:59:28] [info]: JOB DATA
+[2026-10-03 20:59:29] [error]: Failed to send email
+[2026-10-03 20:59:29] [error]: Job 207 failed: Failed to send email
+[2026-10-03 20:59:29] [error]: Email job failed
+[2026-10-03 20:59:30] [info]: Processing email job: 207
+[2026-10-03 20:59:30] [info]: PRINTING JOB DATA : 
+[2026-10-03 20:59:30] [info]: JOB DATA
+[2026-10-03 20:59:32] [error]: Failed to send email
+[2026-10-03 20:59:32] [error]: Job 207 failed: Failed to send email
+[2026-10-03 20:59:32] [error]: Email job failed
+[2026-10-03 20:59:34] [info]: Processing email job: 207
+[2026-10-03 20:59:34] [info]: PRINTING JOB DATA : 
+[2026-10-03 20:59:34] [info]: JOB DATA
+[2026-10-03 20:59:36] [error]: Failed to send email
+[2026-10-03 20:59:36] [error]: Job 207 failed: Failed to send email
+[2026-10-03 20:59:36] [error]: Email job failed
+[2026-10-03 20:59:49] [info]: Redis connected
+[2026-10-03 20:59:49] [info]: Server is running on port 8000
+[2026-10-03 20:59:49] [info]: Redis connected
+[2026-10-03 20:59:49] [info]: Redis is ready
+[2026-10-03 20:59:49] [info]: Email worker is  ready
+[2026-10-03 20:59:54] [info]: Processing email job: 208
+[2026-10-03 20:59:54] [info]: JOB DATA
+[2026-10-03 20:59:56] [error]: Failed to send email
+[2026-10-03 20:59:56] [error]: Job 208 failed: Failed to send email
+[2026-10-03 20:59:56] [error]: Email job failed
+[2026-10-03 20:59:57] [info]: Processing email job: 208
+[2026-10-03 20:59:57] [info]: JOB DATA
+[2026-10-03 20:59:59] [error]: Failed to send email
+[2026-10-03 20:59:59] [error]: Job 208 failed: Failed to send email
+[2026-10-03 20:59:59] [error]: Email job failed
+[2026-10-03 21:00:01] [info]: Processing email job: 208
+[2026-10-03 21:00:01] [info]: JOB DATA
+[2026-10-03 21:00:03] [error]: Failed to send email
+[2026-10-03 21:00:03] [error]: Job 208 failed: Failed to send email
+[2026-10-03 21:00:03] [error]: Email job failed
+[2026-10-03 21:00:38] [info]: Redis connected
+[2026-10-03 21:00:38] [info]: Server is running on port 8000
+[2026-10-03 21:00:38] [info]: Redis connected
+[2026-10-03 21:00:38] [info]: Redis is ready
+[2026-10-03 21:00:38] [info]: Email worker is  ready
+[2026-10-03 21:00:56] [info]: Redis connected
+[2026-10-03 21:00:56] [info]: Server is running on port 8000
+[2026-10-03 21:00:56] [info]: Redis connected
+[2026-10-03 21:00:56] [info]: Redis is ready
+[2026-10-03 21:00:56] [info]: Email worker is  ready
+[2026-10-03 21:01:08] [info]: SIGINT received. Shutting down gracefully...
+[2026-10-03 21:01:17] [info]: Redis connected
+[2026-10-03 21:01:17] [info]: Server is running on port 8000
+[2026-10-03 21:01:17] [info]: Redis connected
+[2026-10-03 21:01:17] [info]: Redis is ready
+[2026-10-03 21:01:17] [info]: Email worker is  ready
+[2026-10-03 21:01:31] [info]: Redis connected
+[2026-10-03 21:01:31] [info]: Server is running on port 8000
+[2026-10-03 21:01:32] [info]: Redis connected
+[2026-10-03 21:01:32] [info]: Redis is ready
+[2026-10-03 21:01:32] [info]: Email worker is  ready
+[2026-10-03 21:01:35] [info]: Processing email job: 209
+[2026-10-03 21:01:37] [error]: Job 209 failed: Failed to send email
+[2026-10-03 21:01:37] [error]: Email job failed
+[2026-10-03 21:01:38] [info]: Processing email job: 209
+[2026-10-03 21:01:40] [error]: Job 209 failed: Failed to send email
+[2026-10-03 21:01:40] [error]: Email job failed
+[2026-10-03 21:01:42] [info]: Processing email job: 209
+[2026-10-03 21:01:43] [error]: Job 209 failed: Failed to send email
+[2026-10-03 21:01:43] [error]: Email job failed
+[2026-10-03 21:03:38] [info]: SIGINT received. Shutting down gracefully...
+[2026-10-03 21:03:46] [info]: Redis connected
+[2026-10-03 21:03:46] [info]: Server is running on port 8000
+[2026-10-03 21:03:46] [info]: Redis connected
+[2026-10-03 21:03:46] [info]: Redis is ready
+[2026-10-03 21:03:46] [info]: Email worker is  ready
+[2026-10-03 21:03:55] [info]: Processing email job: 210
+[2026-10-03 21:03:58] [error]: Job 210 failed: Failed to send email
+[2026-10-03 21:03:58] [error]: Email job failed
+[2026-10-03 21:03:59] [info]: Processing email job: 210
+[2026-10-03 21:04:01] [error]: Job 210 failed: Failed to send email
+[2026-10-03 21:04:01] [error]: Email job failed
+[2026-10-03 21:04:03] [info]: Processing email job: 210
+[2026-10-03 21:04:05] [error]: Job 210 failed: Failed to send email
+[2026-10-03 21:04:05] [error]: Email job failed
+[2026-10-03 21:06:25] [info]: Redis connected
+[2026-10-03 21:06:25] [info]: Server is running on port 8000
+[2026-10-03 21:06:25] [info]: Redis connected
+[2026-10-03 21:06:26] [info]: Redis is ready
+[2026-10-03 21:06:26] [info]: Email worker is  ready
+[2026-10-03 21:06:55] [info]: Redis connected
+[2026-10-03 21:06:55] [info]: Server is running on port 8000
+[2026-10-03 21:06:55] [info]: Redis connected
+[2026-10-03 21:06:55] [info]: Redis is ready
+[2026-10-03 21:06:55] [info]: Email worker is  ready
+[2026-10-03 21:07:04] [info]: Processing email job: 211
+[2026-10-03 21:07:09] [info]: Email sent successfully
+[2026-10-03 21:07:09] [info]: Job 211 completed
+[2026-10-03 21:08:14] [error]: [POST] /api/v1/auth/login - 400 - Validation failed
+[2026-10-03 21:09:40] [info]: Redis connected
+[2026-10-03 21:09:40] [info]: Server is running on port 8000
+[2026-10-03 21:09:40] [info]: Redis connected
+[2026-10-03 21:09:40] [info]: Redis is ready
+[2026-10-03 21:09:40] [info]: Email worker is  ready
+[2026-10-03 21:09:45] [error]: [POST] /api/v1/auth/login - 400 - Invalid OTP
+[2026-10-03 21:09:53] [error]: [POST] /api/v1/auth/login - 400 - Invalid OTP
+[2026-10-03 21:09:56] [error]: [POST] /api/v1/auth/login - 400 - Invalid OTP
+[2026-10-03 21:09:57] [error]: [POST] /api/v1/auth/login - 400 - Invalid OTP
+[2026-10-03 21:09:59] [error]: [POST] /api/v1/auth/login - 400 - Invalid OTP
+[2026-10-03 21:10:00] [error]: [POST] /api/v1/auth/login - 429 - Too many OTP attempts
+[2026-10-03 21:10:07] [error]: [POST] /api/v1/auth/login - 400 - OTP not found
+[2026-10-03 21:10:17] [info]: Processing email job: 212
+[2026-10-03 21:10:21] [info]: Email sent successfully
+[2026-10-03 21:10:21] [info]: Job 212 completed
+[2026-10-03 21:11:24] [info]: Redis connected
+[2026-10-03 21:11:24] [info]: Server is running on port 8000
+[2026-10-03 21:11:24] [info]: Redis connected
+[2026-10-03 21:11:24] [info]: Redis is ready
+[2026-10-03 21:11:24] [info]: Email worker is  ready
+[2026-10-03 21:11:32] [info]: Redis connected
+[2026-10-03 21:11:32] [info]: Server is running on port 8000
+[2026-10-03 21:11:32] [info]: Redis connected
+[2026-10-03 21:11:32] [info]: Redis is ready
+[2026-10-03 21:11:32] [info]: Email worker is  ready
+[2026-10-03 21:12:18] [info]: Redis connected
+[2026-10-03 21:12:18] [info]: Server is running on port 8000
+[2026-10-03 21:12:18] [info]: Redis connected
+[2026-10-03 21:12:18] [info]: Redis is ready
+[2026-10-03 21:12:18] [info]: Email worker is  ready
+[2026-10-03 21:12:25] [info]: Redis connected
+[2026-10-03 21:12:25] [info]: Server is running on port 8000
+[2026-10-03 21:12:25] [info]: Redis connected
+[2026-10-03 21:12:25] [info]: Redis is ready
+[2026-10-03 21:12:25] [info]: Email worker is  ready
+[2026-10-03 21:12:36] [info]: SIGINT received. Shutting down gracefully...

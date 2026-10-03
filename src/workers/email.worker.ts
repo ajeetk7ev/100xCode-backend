@@ -7,7 +7,7 @@ const emailWorker = new Worker(
   "email",
   async (job: Job) => {
     logger.info(`Processing email job: ${job.id}`);
-
+    
     await emailService.sendEmail(job.data);
   },
   {
