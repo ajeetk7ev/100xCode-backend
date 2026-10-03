@@ -49,18 +49,55 @@ class AuthService {
     };
   }
 
-  static async login(data: { email: string; password: string }) {
-    const { email, password } = data;
+  static async login(data: {
+  email: string;
+  password?: string;
+  otp?: string;
+  method: "PASSWORD" | "OTP";
+}) {
+    const { email, password, otp, method } = data;
     const user = await UserRepository.findUserByEmail(email);
 
     if (!user) {
       throw new ApiError(400, "Invalid user credentials");
     }
 
-    const isPasswordMatch = comparePassword(user.password, password);
+    if (method === 'PASSWORD') {
+      const isPasswordMatch = comparePassword(user.password, password!);
 
-    if (!isPasswordMatch) {
-      throw new ApiError(400, "Invalid user credentials");
+      if (!isPasswordMatch) {
+        throw new ApiError(400, "Invalid user credentials");
+      }
+    } else {
+      const otpRecord = await OtpRepository.findOtp(email, "LOGIN");
+
+      if (!otpRecord) {
+        throw new ApiError(400, "OTP not found");
+      }
+
+      if (otpRecord.expiresAt < new Date()) {
+        await OtpRepository.deleteOtp(otpRecord.id);
+
+        throw new ApiError(400, "OTP has expired");
+      }
+
+      if (otpRecord.attempts >= 5) {
+        await OtpRepository.deleteOtp(otpRecord.id);
+
+        throw new ApiError(429, "Too many OTP attempts");
+      }
+
+      const isValid = await bcrypt.compare(otp!, otpRecord.otp);
+
+      if (!isValid) {
+        await OtpRepository.incrementAttempts(otpRecord.id);
+
+        throw new ApiError(400, "Invalid OTP");
+      }
+
+       await OtpRepository.deleteOtp(otpRecord.id);
+
+      
     }
 
     const { accessToken, refreshToken } = generateTokens({
