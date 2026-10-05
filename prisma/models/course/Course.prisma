@@ -1,0 +1,23 @@
+enum Status {
+  Draft
+  Published
+}
+
+model Course {
+  id                String    @id @default(uuid())
+  courseName        String
+  courseDescription String
+  language          String
+  whatYouWillLearn  String[]
+  price             Int
+  thumbnail         String
+  instructions      String?
+  courseContent     Section[]
+
+  status           Status
+  categoryId       String
+  category         Category          @relation(fields: [categoryId], references: [id])
+  instructorId     String
+  instructor       User              @relation(fields: [instructorId], references: [id])
+  ratingAndReviews RatingAndReview[]
+}

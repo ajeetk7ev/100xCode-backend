@@ -1365,3 +1365,32 @@ Null constraint violation on the (not available)
 [2026-10-03 21:12:25] [info]: Redis is ready
 [2026-10-03 21:12:25] [info]: Email worker is  ready
 [2026-10-03 21:12:36] [info]: SIGINT received. Shutting down gracefully...
+[2026-10-03 21:23:42] [info]: Redis connected
+[2026-10-03 21:23:42] [info]: Server is running on port 8000
+[2026-10-03 21:23:42] [info]: Redis connected
+[2026-10-03 21:23:42] [info]: Redis is ready
+[2026-10-03 21:23:42] [info]: Email worker is  ready
+[2026-10-03 21:23:50] [info]: Processing email job: 213
+[2026-10-03 21:23:56] [info]: Email sent successfully
+[2026-10-03 21:23:56] [info]: Job 213 completed
+[2026-10-03 21:23:56] [info]: Processing email job: 214
+[2026-10-03 21:24:00] [info]: Email sent successfully
+[2026-10-03 21:24:00] [info]: Job 214 completed
+[2026-10-03 21:25:36] [info]: Redis connected
+[2026-10-03 21:25:36] [info]: Server is running on port 8000
+[2026-10-03 21:25:36] [info]: Redis connected
+[2026-10-03 21:25:36] [info]: Redis is ready
+[2026-10-03 21:25:36] [info]: Email worker is  ready
+[2026-10-03 21:26:35] [info]: Redis connected
+[2026-10-03 21:26:35] [info]: Server is running on port 8000
+[2026-10-03 21:26:35] [info]: Redis connected
+[2026-10-03 21:26:35] [info]: Redis is ready
+[2026-10-03 21:26:35] [info]: Email worker is  ready
+[2026-10-03 21:26:44] [info]: Processing email job: 215
+[2026-10-03 21:26:49] [info]: Email sent successfully
+[2026-10-03 21:26:49] [info]: Job 215 completed
+[2026-10-03 21:32:05] [info]: Redis connected
+[2026-10-03 21:32:05] [info]: Server is running on port 8000
+[2026-10-03 21:32:05] [info]: Redis connected
+[2026-10-03 21:32:05] [info]: Redis is ready
+[2026-10-03 21:32:05] [info]: Email worker is  ready

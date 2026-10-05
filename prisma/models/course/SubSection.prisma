@@ -1,0 +1,10 @@
+model SubSection {
+  id           String @id @default(uuid())
+  title        String
+  timeDuration String
+  description  String
+  videoUrl     String
+
+  sectionId String
+  section   Section @relation(fields: [sectionId], references: [id])
+}

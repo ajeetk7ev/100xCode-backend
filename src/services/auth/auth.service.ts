@@ -8,6 +8,7 @@ import { type Register } from "./auth.types.ts";
 import { OtpRepository } from "../../repositories/otp/otp.repository.ts";
 import { OtpHTMLTemplate } from "../email/template/otp.ts";
 import { emailQueue } from "../../queue/email.queue.ts";
+import transport from "../../config/nodemailer.ts";
 
 class AuthService {
   static async register(data: Register) {
@@ -171,6 +172,8 @@ class AuthService {
           otp,
           "log into your account",
         );
+
+       
 
         await emailQueue.add(
           "send-otp-email",
